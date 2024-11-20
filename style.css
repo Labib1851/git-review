@@ -1,0 +1,47 @@
+ /* Basic selectors - element/tag selector */
+ h1{
+    background-color: brown;
+}
+
+header{
+    background-color: rgb(136, 33, 233);
+}
+
+h1{
+
+}
+
+body{
+    background-color: hsl(135, 7%, 89%);
+}
+
+section{
+    background-color: aqua;
+}
+
+nav{
+    background-color: chocolate;
+}
+
+footer{
+    background-color: deeppink;
+}
+
+table{
+    background-color: #bce210;
+}
+
+div{
+    background-color: #e28710;
+}
+
+:root{
+    --primary-color: #1014e2;
+    --secondary-color: rgb(90, 7, 51);
+    --background-color: #db0d0d;
+}
+
+batton{
+    background-color: chocolate;
+}
+
