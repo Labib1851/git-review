@@ -1,0 +1,28 @@
+<style>
+        body {
+            background-color: rgb(189, 186, 18);
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c2b3a;
+            color: rgb(236, 215, 21);
+        }
+        section {
+            margin: 20px;
+        }
+        iframe {
+            border: none;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #b34917;
+        }
+        progress, meter {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
