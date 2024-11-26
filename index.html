@@ -3,120 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Labib Talukdar">
-    <meta name="keywords" content="Portfolio, HTML, Labib Talukdar">
-    <meta name="description" content="Labib Talukdar is a software developer.">
-    <title>Portfolio</title>
-    
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- JavaScript ফাইল যুক্ত -->
+    <title>Combined HTML, CSS, JavaScript</title>
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header> 
-        <h1>LA Labib Talukdar</h1>
-        <p>Web Developer and Computer Science Student</p>
-    </header>
-
-    <!-- About Me Section -->
-    <main>
-        <section id="about-me">
-            <img src="Image.jpg" alt="Labib Talukdar" height="200">
-            <h2>About Me</h2>
-            <p>I am a student at Moulvibazar Polytechnic Institute, majoring in Computer Science and Technology.</p>
-            <p><strong>Education:</strong> SSC, Diploma in Computer Science</p>
-        </section>
-
-        <!-- Location Section -->
-        <section id="location">
-            <h3>My Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29059.593265358944!2d90.7733563682207!3d24.435197278025527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3756918773180af5%3A0x530a9427210ef003!2z4KaV4Ka_4Ka24KeL4Kaw4KaX4Kae4KeN4Kac!5e0!3m2!1sbn!2sbd!4v1731930831117!5m2!1sbn!2sbd" 
-                    title="My Home" width="300" height="250" allowfullscreen loading="lazy"></iframe>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <ol>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Digital Marketing</li>
-            </ol>
-            <h3>Skill Progress</h3>
-            <div class="skill-progress">
-                <label for="html-progress">HTML:</label>
-                <progress id="html-progress" value="95" max="100">95%</progress>
-            </div>
-            <div class="skill-progress">
-                <label for="css-progress">CSS:</label>
-                <progress id="css-progress" value="80" max="100">80%</progress>
-            </div>
-            <div class="skill-progress">
-                <label for="js-progress">JavaScript:</label>
-                <progress id="js-progress" value="70" max="100">70%</progress>
-            </div>
-        </section>
-
-        <!-- Table Section -->
-        <section id="people-info">
-            <table border="1" cellpadding="8" cellspacing="0">
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>City</th>
-                </tr>
-                <tr>
-                    <td>Labib</td>
-                    <td>18</td>
-                    <td>Dhaka</td>
-                </tr>
-                <tr>
-                    <td>Karim</td>
-                    <td>30</td>
-                    <td>Chittagong</td>
-                </tr>
-                <tr>
-                    <td>Foraj</td>
-                    <td>28</td>
-                    <td>Rajshahi</td>
-                </tr>
-            </table>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/labib.talukder.849789" target="_blank">
-                        <i class="fab fa-facebook"></i> Facebook
-                    </a>
-                </li>
-            </ul>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <button type="submit">Submit</button>
-                <button type="reset">Clear</button>
-            </form>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Labib Talukdar</p>
-        <a href="tel:0175479884798">Call Us</a> | 
-        <a href="mailto:fhfuf354@yeaho.com">Email Us</a>
-    </footer>
-
-    <div class="ticker">
-        <div class="ticker-text">my frist wedsite another all ok and theis is my skill and program but i am beginar and slaw!</div>
-    </div>
-
+    <h1>Hello, I am Labib</h1>
+    <button onclick="changeText()">Click Me</button>
+    <p id="message">This is a paragraph.</p>
 </body>
 </html>
