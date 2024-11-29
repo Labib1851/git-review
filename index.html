@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Classy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
-        .logo {
-            margin-top: 50px;
-        }
-        .brand-name {
-            font-size: 2em;
-            color: #b22222;
-            margin: 20px 0;
-        }
-        .tagline {
-            font-size: 1.2em;
-            color: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="logo">
-        <img src="images/labib.jpg" alt="Fashion Classy Logo" width="300">
-    </div>
-    <div class="brand-name">Fashion Classy</div>
-    <div class="tagline">Your Fashion Destination</div>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Fashion Classy</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle">Dark Mode</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Fashion Classy</h2>
+                <p>Explore our exclusive collection of trendy and classy fashion.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Fashion Classy. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
